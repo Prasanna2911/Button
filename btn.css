@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+    margin:10px;
+    border:2px double #ccc;
+    padding:50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width:90%;
+    filter:drop-shadow(color=#000,offx=0px,offy=1px);
+}
+#txt{
+    text-align: center;
+}
+.btn-1 button,
+.btn-1a button,
+.btn-2 button,
+.btn-3 button,
+.btn-4 button,
+.btn-5 button,
+.btn-6 button,
+.btn-7 button,
+.btn-8 button,
+.btn-9 button,
+.btn-10 button,
+.btn-11 button,
+.btn-12 button,
+.btn-13 button,
+.btn-14 button,
+.btn-15 button,
+.btn-16 button,
+.btn-17 button,
+.btn-18 button,
+.btn-19 button,
+.btn-20 button{
+    padding:6px;
+    margin:14px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-1 button{
+    width:130px;
+    border-radius:8px;
+    background-color: #ccc;
+    border: none;
+}
+.btn-1a button{
+    border:none;
+    padding:9px 12px;
+    width:150px;
+}
+
+.btn-2 button{
+    background-color: rgb(5, 123, 123);
+    outline: none;
+    border:none;
+    color:rgb(201, 247, 47);
+    padding:13px;
+    transition: 1s;
+}
+.btn-2 button:hover,
+.btn-2 button:focus{
+    border-radius: 10px;
+    
+}
+.btn-3 button{
+    border:1px solid rgb(4, 4, 246);
+    padding:10px 16px;
+    color:blue;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius:7px;
+    
+}
+.btn-4 button{
+    border:1px dotted rgb(4, 4, 246);
+    padding:12px 16px;
+    color:blue;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius:7px;
+    
+}
+.btn-5 button{
+    border:1px dashed rgb(4, 4, 246);
+    padding:12px 16px;
+    color:blue;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius:7px;
+    
+}
+.btn-6 button{
+    border:1px solid red;
+    padding:12px 16px;
+    color:blue;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius:7px;
+    font-size: 29px;
+    
+}
+.btn-7 button{
+    border:1px solid red;
+    padding:12px 16px;
+    color:blue;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius:7px;
+    font-size: 20px;
+    
+}
+.btn-8 button{
+    border:1px double rgb(24, 25, 24);
+    padding:12px 16px;
+    color:white;
+    font-weight: 400;
+    background-color:red;
+    border-radius:7px;
+    font-size: 20px;
+}
+.btn-9 button{
+    border:1px solid navajowhite;
+    padding:12px 16px;
+    color:bisque;
+    font-weight: 400;
+    background-color:blue;
+    border-radius:7px;
+    font-size: 20px;
+}
+.btn-10 button{
+    padding:12px 30px;
+    font-weight: 400;
+    background-color:green;
+    border-radius:15px;
+    font-size: 20px;
+    color:#fff;
+    border:none;
+}
+.btn-11 button{
+    padding:12px 29px;
+    color:white;
+    font-weight: 400;
+    background-color:rgb(1, 1, 59);
+    border-radius:7px;
+    font-size: 20px;
+    border:none;
+}
+.btn-12 button{
+    border:none;
+    color:black;
+    padding:12px 16px;
+    font-weight: 500;
+    background: rgb(243, 150, 8);
+    background: linear-gradient(185deg, rgba(243,150,8,1) 47%, rgba(52,132,160,1) 54%);
+    border-radius:10px;
+    font-size: 20px;
+}
+.btn-13 button{
+    background: rgb(223,236,15);
+    background: linear-gradient(133deg, rgba(223,236,15,1) 33%, rgba(0,212,255,1) 68%);
+   width:120px;
+   border:none;
+   border-radius: 12px;
+   padding:10px 17px;
+   font-weight: 700;
+   color:white;
+}
+.btn-15 button{
+    padding:12px 16px;
+    font-weight: 600;
+    border-radius:7px;
+    font-size: 20px;
+    background-color: #c5c5c5;
+}
+.btn-16 button{
+    border-radius:5px;
+    outline:none;
+    border:none;
+    background-color:#0c2461;
+    color:#fff;
+    padding:12px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+
+}
+button .fa-solid {
+    color:#fff;
+    padding:4px;
+    
+}
+.btn-17 button{
+    width: 200px;
+    font-size: 17px;
+    font-weight: 600;
+    color:black;
+    cursor: pointer;
+    border:none;
+    height: 55px;
+    text-align:center;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    
+}
+.btn-17 .btnhover:hover{
+    background-position: 100%;
+}
+.btnhover.color {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.btn-18 span {
+    position: relative;
+    display: inline-flex;
+    height:50px;
+    width:200px;
+    perspective: 1000px;
+    margin:10px 25px;
+}
+.btn-18 span a{
+    font-size: 17px;
+    letter-spacing: 2px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition:all .30s;
+}
+.btn-18 span a:before,
+.btn-18 span a:after{
+    position: absolute;
+    content: "BUTTON";
+    height:50px;
+    width:200px;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.btn-18 span a:before{
+    color:#fff;
+    background-color: navy;
+    transform: rotateY(0deg) translateZ(25px);
+}
+.btn-18 span a:after{
+    color:blue;
+    transform:rotateX(90deg) translateZ(25px);
+}
+.btn-18 span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+.btn-19{
+    overflow: hidden;
+}
+.btn-19 button{
+    border:none;
+    outline: none;
+    padding:10px 25px;
+    background-color: #009245;
+    border-radius: 10px;
+    color:#fff;
+    position: relative;
+    outline: none;
+    position: relative;
+    z-index: 0;
+    width:160px;
+    height:60px;
+}
+.btn-19 button::before{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width:calc(100% + 4px);
+    height:calc(100% + 4px);
+    left:-2px;
+    top:-2px;
+    background: linear-gradient(
+        124deg,
+        #ff2400,
+        #e81d1d,
+        #e8b71d,
+        #e3e81d,
+        #1de840,
+        #1ddde8,
+        #2b1de8,
+        #dd00f3,
+        #dd00f3
+      );
+      background-size: 400%;
+      z-index: -1;
+      opacity:0;
+      filter:blur(5px);
+      animation:move 20s linear infinite;
+      transition: opacity .3s ease-in-out;
+}
+.btn-19 button:hover::before{
+    opacity: 1;
+}
+.btn-19 button::after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background-color: #000;
+    left:0;
+    top:0;
+    border-radius: 10px;
+    width:100%;
+    height:100%;
+}
+@keyframes move {
+    0%{
+        background-position: 0 0;
+        
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
